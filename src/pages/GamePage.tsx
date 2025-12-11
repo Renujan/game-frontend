@@ -540,7 +540,7 @@ const GamePageContent = () => {
           {/* Game Card - MAIN PUZZLE AREA */}
           <Card
             ref={cardRef}
-            className="relative overflow-hidden shadow-2xl bg-gradient-to-br from-white via-purple-50 to-indigo-50 border-4 border-gradient-to-r from-yellow-400 via-orange-400 to-pink-400 animate-pulse transform hover:scale-[1.02] transition-all duration-500"
+            className="relative overflow-hidden shadow-2xl bg-gradient-to-br from-white via-purple-50 to-indigo-50 border-4 border-gradient-to-r from-yellow-400 via-orange-400 to-pink-400 transform hover:scale-[1.02] transition-all duration-500"
           >
             <div className="absolute top-0 left-0 right-0 h-3 bg-gradient-to-r from-yellow-400 via-pink-500 via-purple-500 to-blue-500 animate-pulse rounded-t-2xl"></div>
 
@@ -572,7 +572,7 @@ const GamePageContent = () => {
               </div>
 
               {/* Question / Answer Form */}
-              <div className="p-8 space-y-6 bg-gradient-to-b from-purple-50 via-pink-50 to-indigo-50 border-t-4 border-gradient-to-r from-yellow-400 via-orange-400 to-pink-400">
+              <div className="p-8 space-y-6 bg-gradient-to-b from-white via-purple-100 to-indigo-200 border-t-4 border-gradient-to-r from-yellow-400 via-orange-400 to-pink-400">
                 <div className="text-center space-y-3">
                   <div className="flex justify-center items-center gap-2">
                     <span className="text-5xl animate-bounce">🤔</span>
